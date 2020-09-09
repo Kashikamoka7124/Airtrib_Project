@@ -1,0 +1,1 @@
+@glidejs/glide @tailwindcss/custom-forms @vue/composition-api axios cross-env debounce laravel-mix laravel-mix-purgecss laravel-mix-tailwind tailwindcss vue vue-flatpickr-component vue-progressbar vuex

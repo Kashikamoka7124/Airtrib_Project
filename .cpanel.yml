@@ -1,0 +1,4 @@
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home/invictussolutions/public_html/dev/airtrib-Dev
+        - /bin/cp -r * $DEPLOYPATH

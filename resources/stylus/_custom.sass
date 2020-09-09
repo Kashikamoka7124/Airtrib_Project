@@ -1,0 +1,150 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+    @apply font-playfair
+
+.glide__bullet--active
+    background-color: #AB8A56 !important
+
+.slider-background-image
+    background-size:     cover
+    background-repeat:   no-repeat
+    // background-position: center center
+
+
+// .__cov-progress:after
+//     width: 100%
+//     content: " "
+//     background: rgba(255,255,255,.8)
+//     height: 4px
+//     position: fixed
+//     top: 0
+//     left: 0
+//     right: 0
+
+section
+    padding: 60px
+.section-heading
+    font-size: 53px
+    text-align: center
+    @apply text-secondary
+.section-heading-sub
+    font-size: 26px
+    text-align: center
+    @apply text-primary
+
+footer
+    // background-size:     cover
+    background-repeat:   no-repeat
+    background-size: cover
+    // background-size: auto
+    // background-position: 25%
+
+
+.hover-fill
+    background: transparent
+    @apply flex justify-center items-center border-primary text-primary cursor-pointer
+    &:hover
+        @apply text-white bg-primary
+
+.circle-arrow
+    background: transparent
+    @apply flex justify-center items-center border-primary text-primary rounded-full cursor-pointer
+    &:hover
+        @apply text-white bg-primary
+
+.circle-plus
+    background: transparent
+    width: 30px
+    height: 30px
+    border-width: 2px
+    @apply flex justify-center items-center border-primary rounded-full text-primary cursor-pointer
+    &:hover
+        @apply text-white bg-primary
+
+.glide__arrow
+    position: absolute
+    top: 50%
+    z-index: 1
+    margin-top: -23px
+
+// .glide__arrow--left
+
+.glide__arrow--right
+    right: 0
+
+.organization
+    position: relative
+    &:hover .organization-quick-info
+        display: block
+
+.organization-quick-info
+    display: none
+    position: absolute
+    bottom: -30px
+    width: 284px
+    height: 300px
+    @apply border border-primary opacity-90 bg-white pt-36 pb-26 text-center
+
+.organization
+    position: relative
+    &:hover .organization-quick-info-small
+        display: block
+
+.organization-quick-info-small
+    display: none
+    position: absolute
+    bottom: -30px
+    width: 180px
+    height: 220px
+    @apply border border-primary opacity-90 bg-white pt-12 pb-10 text-center
+
+
+
+.placeholder-footer-input::-webkit-input-placeholder
+    color: #ffffff
+    opacity: .7
+
+.placeholder-gray-100::-moz-placeholder
+    color: #ffffff
+    opacity: .7
+
+.placeholder-gray-100:-ms-input-placeholder
+    color: #ffffff
+    opacity: .7
+
+.placeholder-gray-100::-ms-input-placeholder
+    color: #ffffff
+    opacity: .7
+
+.placeholder-gray-100::placeholder
+    color: #ffffff
+    opacity: .7
+
+
+html
+    scroll-behavior: smooth
+
+.collapse__body
+    overflow: hidden
+    transition: height .15s
+
+
+
+@media only screen and (min-width: 1900px)
+    .slider-content-wide
+        min-height: 700px
+
+
+
+.user-dropdown
+    @apply absolute border border-primary-light rounded bg-primary-dark-90 right-0 mt-20 px-20
+    top: 100%
+    width: 250px
+    a
+        @apply py-4 text-white block
+        &:not(:last-child)
+            @apply border-b border-primary-light

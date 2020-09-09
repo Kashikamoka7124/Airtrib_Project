@@ -1,0 +1,2 @@
+php artisan iseed airports,bookings,categories,countries,customer_organization,customers,donations,organizations,payments,travelers,users --force
+php artisan iseed airports,bookings,categories,countries,customer_organization,customers,donations,organizations,payments,travelers,users

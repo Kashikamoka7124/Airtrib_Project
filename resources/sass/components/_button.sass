@@ -1,0 +1,32 @@
+button
+    &:focus
+        outline: 0
+
+.btn
+    width: 236px
+    height: 45px
+    font-size: 18px
+    font-weight: bold
+    border-radius: 5px
+    @apply flex justify-center items-center
+
+// .btn:focus
+//     box-shadow: 0 0 0 3px rgba(66, 153, 225, .5)
+//     outline: 0
+
+// .btn:disabled
+//     opacity: .5
+
+.btn-full
+    width: 100%
+
+.btn-outline
+    border-radius: 5px
+    @apply border-3 border-primary text-primary bg-transparent
+    &:hover
+        @apply bg-primary text-white
+
+.btn-primary
+    @apply bg-primary text-white
+    &:hover
+        @apply bg-primary
